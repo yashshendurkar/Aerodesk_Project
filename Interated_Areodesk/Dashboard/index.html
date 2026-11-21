@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AeroDesk | Integrated Flight Dashboard</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="logo">
+            ✈ AeroDesk
+        </div>
+
+        <p class="tagline">
+            Integrated Airport & Flight Management System
+        </p>
+
+    </header>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <main class="container">
+
+
+        <!-- ================= AIRPORT INFORMATION ================= -->
+
+        <section class="airport-section">
+
+            <h1>Airport Information</h1>
+
+            <div class="airport-info">
+
+                <h2 id="airportName">
+                    Airport Name
+                </h2>
+
+                <p id="airportLocation">
+                    Location
+                </p>
+
+                <p id="airportCode">
+                    Airport Code
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= STATISTICS ================= -->
+
+        <section class="statistics-section">
+
+            <h2>Flight Statistics</h2>
+
+            <div class="stats-container">
+
+                <!-- Active Flights -->
+                <div class="stat-card">
+
+                    <h3>Active Flights</h3>
+
+                    <p id="activeFlights">
+                        0
+                    </p>
+
+                </div>
+
+
+                <!-- Passengers -->
+                <div class="stat-card">
+
+                    <h3>Passengers</h3>
+
+                    <p id="passengers">
+                        0
+                    </p>
+
+                </div>
+
+
+                <!-- Fuel Remaining -->
+                <div class="stat-card">
+
+                    <h3>Fuel Remaining</h3>
+
+                    <p id="fuelRemaining">
+                        0
+                    </p>
+
+                </div>
+
+
+                <!-- Runway Status -->
+                <div class="stat-card">
+
+                    <h3>Runway Status</h3>
+
+                    <p id="runwayStatus">
+                        Unknown
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FLIGHT TABLE ================= -->
+
+        <section class="flights-section">
+
+            <h2>Flight Records</h2>
+
+
+            <!-- Flight Search -->
+
+            <input
+                type="text"
+                id="flightSearch"
+                placeholder="Search flight, airline, destination or status..."
+            >
+
+
+            <!-- Flight Table -->
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+                            <th>Flight ID</th>
+                            <th>Airline</th>
+                            <th>Destination</th>
+                            <th>Status</th>
+                            <th>Passengers</th>
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody id="flightTableBody">
+
+                        <!-- Flight data will be loaded from JSON -->
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= INTEGRATED MODULES ================= -->
+
+        <section class="modules-section">
+
+            <h2>Integrated Academic Modules</h2>
+
+
+            <div class="modules-container">
+
+
+                <!-- PL -->
+
+                <div class="module-card">
+
+                    <h3>PL</h3>
+
+                    <p>
+                        Passenger and Flight Data Management
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            Array-based passenger management
+                        </li>
+
+                        <li>
+                            Singly linked list for flight records
+                        </li>
+
+                        <li>
+                            Data insertion and traversal
+                        </li>
+
+                    </ul>
+
+                    <span class="module-status">
+                        PL Implemented
+                    </span>
+
+                </div>
+
+
+                <!-- OOP -->
+
+                <div class="module-card">
+
+                    <h3>OOP</h3>
+
+                    <p>
+                        Object-Oriented Passenger Management
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            Classes and Objects
+                        </li>
+
+                        <li>
+                            Constructors
+                        </li>
+
+                        <li>
+                            Encapsulation
+                        </li>
+
+                    </ul>
+
+                    <span class="module-status">
+                        OOP Implemented
+                    </span>
+
+                </div>
+
+
+                <!-- COA -->
+
+                <div class="module-card">
+
+                    <h3>COA</h3>
+
+                    <p>
+                        80386 Architecture and Assembly
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            80386 architecture demonstration
+                        </li>
+
+                        <li>
+                            Assembly operations
+                        </li>
+
+                        <li>
+                            Arithmetic and fuel calculation
+                        </li>
+
+                    </ul>
+
+                    <span class="module-status">
+                        COA Implemented
+                    </span>
+
+                </div>
+
+
+                <!-- CG -->
+
+                <div class="module-card">
+
+                    <h3>CG</h3>
+
+                    <p>
+                        Computer Graphics Airport Visualization
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            Airport environment
+                        </li>
+
+                        <li>
+                            Runway visualization
+                        </li>
+
+                        <li>
+                            Graphics primitives
+                        </li>
+
+                    </ul>
+
+                    <span class="module-status">
+                        CG Implemented
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECT EVIDENCE ================= -->
+
+        <section class="evidence-section">
+
+            <h2>Project Implementation & Evidence</h2>
+
+
+            <div class="evidence-container">
+
+
+                <!-- ================= PL EVIDENCE ================= -->
+
+                <div class="evidence-card">
+
+                    <h3>
+                        PL - Programming Lab
+                    </h3>
+
+                    <p>
+                        Passenger and flight management
+                        implemented using fundamental
+                        data structures.
+                    </p>
+
+                    <div class="evidence-details">
+
+                        <p>
+                            <strong>Array:</strong>
+                            Passenger Management
+                        </p>
+
+                        <p>
+                            <strong>Linked List:</strong>
+                            Flight Records
+                        </p>
+
+                        <p>
+                            <strong>Operations:</strong>
+                            Insert, Display, Traverse
+                        </p>
+
+                    </div>
+
+                    <button
+                        class="evidence-button"
+                        type="button">
+
+                        View PL Evidence
+
+                    </button>
+
+                </div>
+
+
+                <!-- ================= OOP EVIDENCE ================= -->
+
+                <div class="evidence-card">
+
+                    <h3>
+                        OOP - Object Oriented Programming
+                    </h3>
+
+                    <p>
+                        Passenger management designed
+                        using object-oriented programming
+                        concepts.
+                    </p>
+
+                    <div class="evidence-details">
+
+                        <p>
+                            <strong>Class:</strong>
+                            Passenger
+                        </p>
+
+                        <p>
+                            <strong>Concepts:</strong>
+                            Object, Constructor
+                        </p>
+
+                        <p>
+                            <strong>Principle:</strong>
+                            Encapsulation
+                        </p>
+
+                    </div>
+
+                    <button
+                        class="evidence-button"
+                        type="button">
+
+                        View OOP Evidence
+
+                    </button>
+
+                </div>
+
+
+                <!-- ================= COA EVIDENCE ================= -->
+
+                <div class="evidence-card">
+
+                    <h3>
+                        COA - Computer Organization
+                    </h3>
+
+                    <p>
+                        80386 assembly programs demonstrate
+                        architecture and computational
+                        operations.
+                    </p>
+
+                    <div class="evidence-details">
+
+                        <p>
+                            <strong>CO1:</strong>
+                            80386 Architecture
+                        </p>
+
+                        <p>
+                            <strong>CO2:</strong>
+                            Assembly Operations
+                        </p>
+
+                        <p>
+                            <strong>CO3:</strong>
+                            Arithmetic / Fuel Calculation
+                        </p>
+
+                    </div>
+
+                    <button
+                        class="evidence-button"
+                        type="button">
+
+                        View COA Results
+
+                    </button>
+
+                </div>
+
+
+                <!-- ================= CG EVIDENCE ================= -->
+
+                <div class="evidence-card">
+
+                    <h3>
+                        CG - Computer Graphics
+                    </h3>
+
+                    <p>
+                        Airport environment created using
+                        computer graphics primitives.
+                    </p>
+
+                    <div class="evidence-details">
+
+                        <p>
+                            <strong>Visualization:</strong>
+                            Airport
+                        </p>
+
+                        <p>
+                            <strong>Objects:</strong>
+                            Runway, Aircraft, Tower
+                        </p>
+
+                        <p>
+                            <strong>Technology:</strong>
+                            OpenGL
+                        </p>
+
+                    </div>
+
+                    <button
+                        class="evidence-button"
+                        type="button">
+
+                        View CG Visualization
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= COA RESULTS ================= -->
+
+        <section class="coa-results-section">
+
+            <h2>COA 80386 Results</h2>
+
+
+            <div class="coa-container">
+
+
+                <!-- ================= CO1 ================= -->
+
+                <div class="coa-card">
+
+                    <h3>
+                        CO1 - 80386 Architecture
+                    </h3>
+
+                    <p>
+                        Demonstration of 80386 processor
+                        architecture, registers and basic
+                        architectural concepts.
+                    </p>
+
+                    <div class="coa-details">
+
+                        <p>
+                            <strong>Processor:</strong>
+                            Intel 80386
+                        </p>
+
+                        <p>
+                            <strong>Architecture:</strong>
+                            32-bit
+                        </p>
+
+                        <p>
+                            <strong>Module:</strong>
+                            CO1 Architecture
+                        </p>
+
+                    </div>
+
+                    <span class="module-status">
+                        Implemented
+                    </span>
+
+                </div>
+
+
+                <!-- ================= CO2 ================= -->
+
+                <div class="coa-card">
+
+                    <h3>
+                        CO2 - 80386 Assembly
+                    </h3>
+
+                    <p>
+                        Assembly language operations using
+                        80386 registers and instructions.
+                    </p>
+
+                    <div class="coa-details">
+
+                        <p>
+                            <strong>Registers:</strong>
+                            EAX, EBX, ECX
+                        </p>
+
+                        <p>
+                            <strong>Language:</strong>
+                            NASM Assembly
+                        </p>
+
+                        <p>
+                            <strong>Module:</strong>
+                            CO2 Assembly
+                        </p>
+
+                    </div>
+
+                    <span class="module-status">
+                        Implemented
+                    </span>
+
+                </div>
+
+
+                <!-- ================= CO3 ================= -->
+
+                <div class="coa-card">
+
+                    <h3>
+                        CO3 - Arithmetic Calculation
+                    </h3>
+
+                    <p>
+                        Flight fuel calculation using
+                        arithmetic operations in
+                        80386 assembly.
+                    </p>
+
+                    <div class="coa-details">
+
+                        <p>
+                            <strong>Distance:</strong>
+                            1200 km
+                        </p>
+
+                        <p>
+                            <strong>Fuel Rate:</strong>
+                            5 units/km
+                        </p>
+
+                        <p>
+                            <strong>Fuel Required:</strong>
+                            6000 units
+                        </p>
+
+                        <p>
+                            <strong>Available Fuel:</strong>
+                            10000 units
+                        </p>
+
+                        <p>
+                            <strong>Remaining Fuel:</strong>
+                            4000 units
+                        </p>
+
+                    </div>
+
+                    <span class="module-status">
+                        Implemented
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <p>
+            AeroDesk Integrated Project |
+            PL • OOP • COA • CG
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript File -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

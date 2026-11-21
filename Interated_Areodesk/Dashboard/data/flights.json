@@ -1,0 +1,80 @@
+{
+    "airport": {
+        "name": "AeroDesk International Airport",
+        "location": "Pune, Maharashtra, India",
+        "code": "ADP"
+    },
+
+    "statistics": {
+        "activeFlights": 8,
+        "passengers": 1240,
+        "fuelRemaining": 4000,
+        "runwayStatus": "Operational"
+    },
+
+    "flights": [
+        {
+            "flightId": "AD101",
+            "airline": "Aero India",
+            "destination": "Mumbai",
+            "status": "On Time",
+            "passengers": 180
+        },
+        {
+            "flightId": "AD102",
+            "airline": "Sky Airways",
+            "destination": "Delhi",
+            "status": "Boarding",
+            "passengers": 165
+        },
+        {
+            "flightId": "AD103",
+            "airline": "Air Connect",
+            "destination": "Bangalore",
+            "status": "On Time",
+            "passengers": 190
+        },
+        {
+            "flightId": "AD104",
+            "airline": "Aero India",
+            "destination": "Hyderabad",
+            "status": "Delayed",
+            "passengers": 150
+        },
+        {
+            "flightId": "AD105",
+            "airline": "Sky Airways",
+            "destination": "Goa",
+            "status": "On Time",
+            "passengers": 140
+        },
+        {
+            "flightId": "AD106",
+            "airline": "Air Connect",
+            "destination": "Chennai",
+            "status": "Boarding",
+            "passengers": 175
+        },
+        {
+            "flightId": "AD107",
+            "airline": "Aero India",
+            "destination": "Kolkata",
+            "status": "On Time",
+            "passengers": 120
+        },
+        {
+            "flightId": "AD108",
+            "airline": "Sky Airways",
+            "destination": "Ahmedabad",
+            "status": "Delayed",
+            "passengers": 120
+        }
+    ],
+
+    "modules": {
+        "PL": "Passenger and Flight Data Management",
+        "OOP": "Passenger Classes, Objects and Encapsulation",
+        "COA": "80386 Architecture and Assembly Operations",
+        "CG": "Airport and Runway Visualization"
+    }
+}
